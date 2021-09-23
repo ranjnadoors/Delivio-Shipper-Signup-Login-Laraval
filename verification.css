@@ -1,0 +1,242 @@
+@font-face{
+src: url(./font/Jost/static/Jost-Medium.ttf);
+font-family:Jost-Medium;
+}
+@font-face{
+src: url(./font/Jost/static/Jost-Light.ttf);
+font-family:Jost-Light;
+}
+@font-face{
+src: url(./font/Jost/static/Jost-SemiBold.ttf);
+font-family:Jost-SemiBold;
+}   
+@font-face{
+src: url(./font/Jost/static/Jost-Regular.ttf);
+font-family:Jost-Regular;
+}
+
+#home-bg{
+background:url(./images/writing-address-box.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+
+
+}
+#home-bg .layer{
+background-color: rgba(0, 0, 0, 0.7);
+position: relative;
+top: 0;
+left: 0;
+
+}
+#home-bg h1{
+font-size: 50px;
+font-family:Jost-SemiBold;
+color: #fff;
+}
+#home-bg span{
+font-family:Jost-Light ;
+}
+#home-bg p{
+font-family: Jost-Regular;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 30px;
+color: #FFFFFF;
+}
+ul{
+list-style: none;
+}
+#form-bg{
+background: url(./images/form-bg-1.svg), url(./images/form-bg-2.svg);
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+right: 0%;
+}
+#form-bg h1{
+color: black;
+font-size: 30px;
+font-family:Jost-SemiBold;
+}
+#form-bg h2{
+font-family: Jost-Regular;
+font-style: normal;
+font-weight: normal;
+font-size: 23.6517px;
+line-height: 34px;
+color: #939292;
+}
+#form-bg h3{
+font-family: Jost-Regular;
+font-style: normal;
+font-weight: normal;
+font-size: 23.6517px;
+line-height: 34px;
+color: #939292;
+}
+.input-container {
+display: -ms-flexbox; /* IE10 */
+display: flex;
+width: 65%;
+margin-bottom: 15px;
+border: 1px solid #3A3A3A
+}
+
+.input-container img{
+height: 30px;
+padding: 4px;
+
+}
+
+#form-bg .input-field {
+width: 100%;
+padding: 10px;
+outline: none;
+border: 0px;
+}
+#form-bg input::placeholder{
+font-size: 23px;
+font-family:Jost-Regular;
+color: #939292;;
+}
+.input-field:focus, textarea:focus, select:focus{
+outline: none;
+}
+#form-bg .form-check-label{
+font-size: 18px;
+font-family:Poppins-Regular,AdobeInvisFont,MyriadPro-Regular;
+color:#464646 ;
+}
+#form-bg .form-check-input{
+width:16px;
+height: 18px;
+}
+#form-bg a{
+font-size: 18px;
+font-family:Jost-Regular;
+color:#A4A4A4 !important ;
+text-align: end;
+}
+#form-bg .account{
+font-size: 18px;
+font-family:Jost-Regular;
+color:#A4A4A4 !important ;
+text-align: end;
+margin-left: 18%;
+}
+#form-bg .btn-1{
+background-color: #3F69AA  !important;
+font-size: 18px !important;
+font-family:Jost-Regular;
+color:#fff ;
+text-align: center;
+border: none;
+border-radius: 5px;
+width: 65%;
+}
+.social-icon{
+margin-left: 18%;
+}
+
+
+
+.form-control {
+-webkit-transition: none;
+transition: none;
+
+text-align: center;
+
+}
+
+.form-control:focus {
+color: #3F4254;
+background-color: #ffffff;
+border-color: #884377;
+outline: 0;
+}
+.video {
+width: 100%;
+border: 1px solid black;
+}
+.wrapper{
+display:table;
+width:auto;
+position:relative;
+width:50%;
+}
+.playpause {
+background:url(./images/play.svg),rgba(255,255,255,0.4);
+background-repeat:no-repeat;
+width:16%;
+height:30%;
+position:absolute;
+left:0%;
+border: 1px solid transparent;
+
+border-radius: 50%;
+right:0%;
+top:0%;
+bottom:0%;
+margin:auto;
+background-size:auto;
+background-position: center;
+}
+h4{
+position: absolute;
+font-size: 14px !important;
+top: 3%;
+left: 2%;
+color: #fff;
+font-family: Jost-Regular;
+}
+.form-control.form-control-solid {
+
+color: #3F4254;
+transition: color 0.15s ease, background-color 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+.form-control.form-control-solid:active,
+.form-control.form-control-solid.active,
+.form-control.form-control-solid:focus,
+.form-control.form-control-solid.focus {
+background-color: #EBEDF3;
+border-color: #EBEDF3;
+color: #3F4254;
+transition: color 0.15s ease, background-color 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease;
+}
+.positions{
+position: absolute; 
+top: 3%;
+left: 2%;
+}
+/***********************media Queries***************************/
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+.wrapper{
+    width: 75%;
+} 
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .wrapper{
+        width: 75%;
+    } 
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}
