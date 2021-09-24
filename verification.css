@@ -217,6 +217,9 @@ left: 2%;
 .wrapper{
     width: 75%;
 } 
+#form-bg{
+    background: white;
+}
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */

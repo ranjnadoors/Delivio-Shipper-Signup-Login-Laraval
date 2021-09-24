@@ -168,15 +168,16 @@ left: 2%;
 /***********************media Queries***************************/
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-.social-icon {
-margin-left: 41%;
-}
+
 #form-bg .account{
 margin-left: 21%;
 }
 .wrapper{
     width: 75%;
 } 
+#form-bg{
+    background: white;
+}
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
