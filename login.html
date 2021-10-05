@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="bootstrap/font-awesome.min.css">
     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
@@ -15,27 +15,23 @@
     <div class="container-fluid" id="home-bg">
         <div class=" px-0">
             <div class="row layer">
-                <div class="col-xl-6 py-5">
-                    <div class="text-center my-5">
+                <div class="col-xl-6 d-lg-block d-none">
+                    <div class="text-center mt-5 pt-5">
                         <h1>Welcome to <span>Delivio?</span></h1>
                     </div>
-                    <div class="py-5">
-                        <ul>
-                            <li class="my-3">
-                                <p>Use <b>free space</b> in your <b><i> Home, Warehouse or Retail</i></b> to <b>Store,
+                    <div class=" px-5 pt-5">
+                        
+                                <p class="my-5">Use <b>free space</b> in your <b><i> Home, Warehouse or Retail</i></b> to <b>Store,
                                         Ship or Deliver orders.</b>
                                 </p>
-                            </li>
-                            <li class="my-3">
-                                <p>Working few hours everyday you can make over <b>$2k a month.</b> If you
+                            
+                                <p class="my-5">Working few hours everyday you can make over <b>$2k a month.</b> If you
                                     <i>deliver</i> in addition to working then you can make even more money <b>(>$30 an
                                         hour).</b></p>
-                            </li>
-
-                        </ul>
-                        <div class="d-flex justify-content-center my-4 py-5">
+                            
+                        <div class="d-flex justify-content-center pt-4">
                             <div class="wrapper">
-                                <div class="positions w-100">
+                                <div class="positions ">
                                     <div class="d-flex ">
                                         <div class="col-6">
                                             <h4>Work 2 hours a day</h4>
@@ -55,11 +51,12 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xl-6" id="form-bg">
-                    <div class="container py-lg-0 py-5 px-lg-0 px-4">
-                        <div class="text-center py-5 mt-4"><img src="images/logo.svg" class="img-fluid"
+                <div class="col-xl-6" >
+                <div id="form-bg">
+                    <div class="container  px-lg-0 px-4">
+                        <div class="text-center mt-lg-0 mt-5"><img src="images/logo.svg" class="img-fluid"
                                 alt=""></div>
-                        <div class="text-center">
+                        <div class="text-center py-3">
                             <h1>Log In</h1>
                         </div>
 
@@ -67,7 +64,7 @@
                             <form action="forget_password.html" style="margin:auto">
 
                                 <div class="d-flex my-4 justify-content-center">
-                                    <div class="input-container mx-3">
+                                    <div class="input-container mx-md-3">
                                         <input class="input-field" type="text" placeholder="E-mail Address"
                                             name="email">
                                         <img src="./images/mail.svg" class="img-fluid m-2" alt="">
@@ -81,28 +78,29 @@
                                     </div>
                                 </div>
                                 <div class="d-flex">
-                                    <div class=" col-6 form-group form-check text-center pl-4">
-                                        <label class="form-check-label ml-3">
+                                    <div class=" col-6 form-group form-check  ">
+                                        <label class="form-check-label ml-md-5 ">
                                             <input class="form-check-input" type="checkbox" name="remember"> Remember me
                                         </label>
                                     </div>
-                                    <div class="col-6 text-center"><a href="">Forgot Password?</a></div>
+                                    <div class="col-6 text-center"><a href="forget_password.html">Forgot Password?</a></div>
                                 </div>
-                                <div class="text-center "><a href="forget_password.html" style="color: #fff!important;">
+                                <div class="text-center "><a href="" style="color: #fff!important;">
                                         <button class="btn-1 px-3 py-3 text-uppercase">Login</button></a></div>
-                                <div class="d-flex account my-4">Have an account ?
-                                    <a href="signup.html">Register here</a>
+                                <div class="d-flex account my-4  justify-content-center">Have an account ?
+                                    <a href="signup.html" class="ml-2"> Register here</a>
                                 </div>
-                                <div class="d-flex social-icon">
-                                    <img src="./images/facebook.svg" class="mx-3" alt="">
-                                    <i class="fab fa-instagram mx-3" style="color: #3F69AA; font-size: 25px;"></i>
-                                    <img src="./images/google.svg" class="mx-3" alt="">
-                                    <img src="./images/youtube.svg" class="mx-3" alt="">
+                                <div class="d-flex social-icon justify-content-center">
+                                    <img src="./images/facebook.svg" class="mx-3 hover_me" alt="">
+                                    <i class="fab fa-instagram mx-3 hover_me" style="color: #3F69AA; font-size: 25px;"></i>
+                                    <img src="./images/google.svg" class="mx-3 hover_me" alt="">
+                                    <img src="./images/youtube.svg" class="mx-3 hover_me" alt="">
                                 </div>
                             </form>
                         </div>
                     </div>
                 </div>
+            </div>
             </div>
         </div>
     </div>
