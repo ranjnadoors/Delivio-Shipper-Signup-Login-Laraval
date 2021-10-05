@@ -1,326 +1,327 @@
 @font-face{
-    src: url(./font/Jost/static/Jost-Medium.ttf);
-    font-family:Jost-Medium;
-    }
-    @font-face{
-    src: url(./font/Jost/static/Jost-Light.ttf);
-    font-family:Jost-Light;
-    }
-    @font-face{
-    src: url(./font/Jost/static/Jost-SemiBold.ttf);
-    font-family:Jost-SemiBold;
-    }   
-    @font-face{
-    src: url(./font/Jost/static/Jost-Regular.ttf);
-    font-family:Jost-Regular;
-    }
-    
-    #home-bg{
-    background:url(./images/writing-address-box.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    
-    
-    }
-    #home-bg .layer{
-    background-color: rgba(0, 0, 0, 0.7);
-    position: relative;
-    top: 0;
-    left: 0;
-    
-    }
-    #home-bg h1{
-    font-size: 50px;
-    font-family:Jost-SemiBold;
-    color: #fff;
-    }
-    #home-bg span{
-    font-family:Jost-Light ;
-    }
-    #home-bg p{
-    font-family: Jost-Regular;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 30px;
-    color: #FFFFFF;
-    }
-    ul{
-    list-style: none;
-    }
-    
-    li p::before{
-    content: "\2022";
-    display: inline-block;
-    height: 15px;
-    width: 15px;
-    border-radius: 50%;
-    color: #fff;
-    }
-    #form-bg{
-        min-height: 100vh;
-        position: relative;
-        text-align: center;
-        display: -webkit-box;
-        display: -moz-box;
-        display: -ms-flexbox;
-        display: -webkit-flex;
-        display: flex;
-        right: -2%;
-        justify-content: center;
-        align-items: center;
-        padding: 15px 0;
-        border-radius: 100% 0 0 100%;
-        background: #fff;
-        border: solid 10px #8BBD43;
-    }
-    #form-bg h1{
-    color: black;
-    font-size: 30px;
-    font-family:Jost-SemiBold;
-    }
-    .input-container {
-    display: -ms-flexbox; /* IE10 */
-    display: flex;
-    width: 65%;
-    margin-bottom: 15px;
-    padding: 9.5px 20px;
-    font-size: 16px;
-    outline: none;
-    color: #616161;
-    border-radius: 3px;
-    font-weight: 500;
-    border: 1px solid transparent;
-    background: #fff;
-    box-shadow: 0 0 5px rgb(0 0 0 / 20%);
-    }
-    
-    .input-container img{
-    height: 30px;
-    padding: 4px;
-    
-    }
-    
-    #form-bg .input-field {
-    width: 100%;
-    padding: 10px;
-    outline: none;
-    border: 0px;
-    }
-    #form-bg input::placeholder{
-    font-size: 23px;
-    font-family:Jost-Regular;
-    color: #939292;;
-    }
-    .input-field:focus, textarea:focus, select:focus{
-    outline: none;
-    }
-    #form-bg .form-check-label{
-    font-size: 18px;
-    font-family:Jost-Regular,AdobeInvisFont,MyriadPro-Regular;
-    color:#464646 ;
-    }
-    #form-bg .form-check-input{
-    width:16px;
-    height: 18px;
-    }
-    #form-bg a{
-    font-size: 18px;
-    font-family:Jost-Regular;
-    color:#A4A4A4 !important ;
-    text-align: end;
-    }
-    #form-bg .account{
-    font-size: 18px;
-    font-family:Jost-Regular;
-    color:#A4A4A4 !important ;
-    text-align: end;
-    
-    }
-    /*#form-bg .btn-1{
-    background-color: #3F69AA  !important;
-    font-size: 18px !important;
-    font-family:Jost-Regular;
-    color:#fff ;
-    text-align: center;
-    border: none;
-    border-radius: 5px;
-    width: 65%;
-    }*/
-    #form-bg .btn-1{
-        font-family:Jost-Regular;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 18px;
-        line-height: 26px;
-        color: #fff;
-        width: 65%;
-        height: 60px;
-        background-color: #3F69AA;
-        position: relative;
-        overflow: hidden;
-        border: 2px solid #3F69AA;
-        transition: all .5s;
-        z-index: 0;
-        border-radius: 5px;
-        }
-        #form-bg .btn-1:before{
-        content:"";
-        background: #fff;
-        width: 462%;
-        height: 1426%;
-        top: 0;
-        left: 0;
-        position: absolute;
-        transform: translate(-1344px) rotate(45deg);
-        transition: all .5s ease-out;
-        z-index: 0;
-        
-        }
-        #form-bg .btn-1:hover:before{
-        transform: translate(-294px) rotate(45deg);
-        background: #fff;
-        color: #3F69AA;
-        z-index: -5;
-        
-        
-        }
-        #form-bg .btn-1:hover:before{
-        z-index: -1;
-        
-        }
-        #form-bg .btn-1:hover{
-        color: #3F69AA;
-        z-index: 99;
-        border: 2px solid #3F69AA;
-        }
-        #form-bg .btn-1 .img-2{
-        display: none;  
-        }
-        #form-bg .btn-1:hover .img-2{
-        display: inline-block;  
-        }
-        #form-bg .btn-1:hover .img-1{
-        display: none;  
-        }
-    
-    .social-icon{
-   
-    }
-    .video {
-    width: 64%;
-    border: 1px solid black;
-    }
-    .wrapper{
-    display:table;
-    width:auto;
-    position:relative;
-    width:50%;
-    }
-    .playpause {
-    background:url(./images/play.svg),rgba(255,255,255,0.4);
-    background-repeat:no-repeat;
-    width:9%;
-    height:28%;
-    position:absolute;
-    left:0%;
-    border: 1px solid transparent;
-    
-    border-radius: 50%;
-    right:28%;
-    top:0%;
-    bottom:0%;
-    margin:auto;
-    background-size:auto;
-    background-position: center;
-    }
-    h4{
-    position: absolute;
-    font-size: 14px !important;
-    top: 3%;
-    left: 2%;
-    color: #fff;
-    font-family: Jost-Regular;
-    }
-    .positions{
-    position: absolute; 
-    top: 3%;
-    left: 2%;
-    width: 63%;
-    }
-    .hover_me:hover{
-        transform: scale(1.4);
-    }
-    #form-bg h2{
-        font-family: Jost-Regular;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 23.6517px;
-        line-height: 34px;
-        color: #939292;
-        }
-        #form-bg h3{
-            font-family: Jost-Regular;
-            font-style: normal;
-            font-weight: normal;
-            font-size: 23.6517px;
-            line-height: 34px;
-            color: #939292;
-            }
-    /***********************media Queries***************************/
-    /* Extra small devices (phones, 600px and down) */
-    @media only screen and (max-width: 600px) {
-    .wrapper{
-    width: 75%;
-    } 
-    #form-bg{
-       padding: 15px 0;
-            border-radius: 0 0 0 0;
-            background: #fff;
-            border: none;
-       
-    }
-    .input-container{
-        width: 100%;
-    }
-    #home-bg{
-        background: transparent;
-    }
-    #home-bg .layer{
-        background: transparent;
-    }
-    }
-    
-    /* Small devices (portrait tablets and large phones, 600px and up) */
-    @media only screen and (min-width: 600px) {
-        .wrapper{
-            width: 75%;
-        } 
-    }
-    
-    /* Medium devices (landscape tablets, 768px and up) */
-    @media only screen and (max-width: 768px) {
-        #form-bg{
-            padding: 15px 0;
-                 border-radius: 0 0 0 0;
-                 background: #fff;
-                 border: none;
-            
-         }
-         #home-bg{
-             background: transparent;
-         }
-         #home-bg .layer{
-             background: transparent;
-         }
-    } 
-    
-    /* Large devices (laptops/desktops, 992px and up) */
-    @media only screen and (min-width: 992px) {
-       
-    } 
-    
-    /* Extra large devices (large laptops and desktops, 1200px and up) */
-    @media only screen and (min-width: 1200px) {
-        
-    }
+src: url(./font/Jost/static/Jost-Medium.ttf);
+font-family:Jost-Medium;
+}
+@font-face{
+src: url(./font/Jost/static/Jost-Light.ttf);
+font-family:Jost-Light;
+}
+@font-face{
+src: url(./font/Jost/static/Jost-SemiBold.ttf);
+font-family:Jost-SemiBold;
+}   
+@font-face{
+src: url(./font/Jost/static/Jost-Regular.ttf);
+font-family:Jost-Regular;
+}
+
+#home-bg{
+background:url(./images/writing-address-box.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+
+
+}
+#home-bg .layer{
+background-color: rgba(0, 0, 0, 0.7);
+position: relative;
+top: 0;
+left: 0;
+
+}
+#home-bg h1{
+font-size: 50px;
+font-family:Jost-SemiBold;
+color: #fff;
+}
+#home-bg span{
+font-family:Jost-Light ;
+}
+#home-bg p{
+font-family: Jost-Regular;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 30px;
+color: #FFFFFF;
+}
+ul{
+list-style: none;
+}
+
+li p::before{
+content: "\2022";
+display: inline-block;
+height: 15px;
+width: 15px;
+border-radius: 50%;
+color: #fff;
+}
+#form-bg{
+min-height: 100vh;
+position: relative;
+text-align: center;
+display: -webkit-box;
+display: -moz-box;
+display: -ms-flexbox;
+display: -webkit-flex;
+display: flex;
+
+justify-content: center;
+align-items: center;
+padding: 15px 0;
+border-radius: 100% 0 0 100%;
+background: #fff;
+border: solid 10px #8BBD43;
+}
+#form-bg h1{
+color: black;
+font-size: 30px;
+font-family:Jost-SemiBold;
+}
+.input-container {
+display: -ms-flexbox; /* IE10 */
+display: flex;
+width: 55%;
+margin-bottom: 15px;
+padding: 9.5px 20px;
+font-size: 16px;
+outline: none;
+color: #616161;
+border-radius: 3px;
+font-weight: 500;
+border: 1px solid transparent;
+background: #fff;
+box-shadow: 0 0 5px rgb(0 0 0 / 20%);
+}
+
+.input-container img{
+height: 30px;
+padding: 4px;
+
+}
+
+#form-bg .input-field {
+width: 100%;
+padding: 10px;
+outline: none;
+border: 0px;
+}
+#form-bg input::placeholder{
+font-size: 23px;
+font-family:Jost-Regular;
+color: #939292;;
+}
+.input-field:focus, textarea:focus, select:focus{
+outline: none;
+}
+#form-bg .form-check-label{
+font-size: 18px;
+font-family:Jost-Regular,AdobeInvisFont,MyriadPro-Regular;
+color:#464646 ;
+}
+#form-bg .form-check-input{
+width:16px;
+height: 18px;
+}
+#form-bg a{
+font-size: 18px;
+font-family:Jost-Regular;
+color:#A4A4A4 !important ;
+text-align: end;
+}
+#form-bg .account{
+font-size: 18px;
+font-family:Jost-Regular;
+color:#A4A4A4 !important ;
+text-align: end;
+
+}
+/*#form-bg .btn-1{
+background-color: #3F69AA  !important;
+font-size: 18px !important;
+font-family:Jost-Regular;
+color:#fff ;
+text-align: center;
+border: none;
+border-radius: 5px;
+width: 65%;
+}*/
+#form-bg .btn-1{
+font-family:Jost-Regular;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 26px;
+color: #fff;
+width: 55%;
+height: 60px;
+background-color: #3F69AA;
+position: relative;
+overflow: hidden;
+border: 2px solid #3F69AA;
+transition: all .5s;
+z-index: 0;
+border-radius: 5px;
+}
+#form-bg .btn-1:before{
+content:"";
+background: #fff;
+width:439%;
+height: 1426%;
+top: 0;
+left: 0;
+position: absolute;
+transform: translate(-1344px) rotate(45deg);
+transition: all .5s ease-out;
+z-index: 0;
+
+}
+#form-bg .btn-1:hover:before{
+transform: translate(-294px) rotate(45deg);
+background: #fff;
+color: #3F69AA;
+z-index: -5;
+
+
+}
+#form-bg .btn-1:hover:before{
+z-index: -1;
+
+}
+#form-bg .btn-1:hover{
+color: #3F69AA;
+z-index: 99;
+border: 2px solid #3F69AA;
+}
+#form-bg .btn-1 .img-2{
+display: none;  
+}
+#form-bg .btn-1:hover .img-2{
+display: inline-block;  
+}
+#form-bg .btn-1:hover .img-1{
+display: none;  
+}
+
+.social-icon{
+
+}
+.video {
+width: 64%;
+border: 1px solid black;
+}
+.wrapper{
+display:table;
+width:auto;
+position:relative;
+width:50%;
+left: 13%;
+}
+.playpause {
+background:url(./images/play.svg),rgba(255,255,255,0.4);
+background-repeat:no-repeat;
+width:9%;
+height:28%;
+position:absolute;
+left:0%;
+border: 1px solid transparent;
+
+border-radius: 50%;
+right:28%;
+top:0%;
+bottom:0%;
+margin:auto;
+background-size:auto;
+background-position: center;
+}
+h4{
+position: absolute;
+font-size: 14px !important;
+top: 3%;
+left: 2%;
+color: #fff;
+font-family: Jost-Regular;
+}
+.positions{
+position: absolute; 
+top: 3%;
+left: 2%;
+width: 63%;
+}
+.hover_me:hover{
+transform: scale(1.4);
+}
+#form-bg h2{
+font-family: Jost-Regular;
+font-style: normal;
+font-weight: normal;
+font-size: 23.6517px;
+line-height: 34px;
+color: #939292;
+}
+#form-bg h3{
+font-family: Jost-Regular;
+font-style: normal;
+font-weight: normal;
+font-size: 23.6517px;
+line-height: 34px;
+color: #939292;
+}
+/***********************media Queries***************************/
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+.wrapper{
+width: 75%;
+} 
+#form-bg{
+padding: 15px 0;
+border-radius: 0 0 0 0;
+background: #fff;
+border: none;
+
+}
+.input-container{
+width: 100%;
+}
+#home-bg{
+background: transparent;
+}
+#home-bg .layer{
+background: transparent;
+}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+.wrapper{
+width: 75%;
+} 
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+#form-bg{
+padding: 15px 0;
+border-radius: 0 0 0 0;
+background: #fff;
+border: none;
+
+}
+#home-bg{
+background: transparent;
+}
+#home-bg .layer{
+background: transparent;
+}
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+}
