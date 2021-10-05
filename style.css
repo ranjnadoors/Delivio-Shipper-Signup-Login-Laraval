@@ -96,7 +96,7 @@ box-shadow: 0 0 5px rgb(0 0 0 / 20%);
 }
 
 .input-container img{
-height: 30px;
+height: 23px;
 padding: 4px;
 
 }
@@ -108,7 +108,7 @@ outline: none;
 border: 0px;
 }
 #form-bg input::placeholder{
-font-size: 23px;
+font-size: 16px;
 font-family:Jost-Regular;
 color: #939292;;
 }
