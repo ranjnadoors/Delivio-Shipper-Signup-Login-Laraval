@@ -6939,7 +6939,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 
 .login-17 .info p {
-    color: #e6e6e6;
+    color: #fff;
     line-height: 28px;
     font-size: 18px;
 }
@@ -14428,7 +14428,48 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     background: #0177b5;
     color: #fff;
 }
-
+.video {
+    width: 64%;
+    border: 2px solid #fff;
+    }
+    .wrapper{
+    display:table;
+    width:auto;
+    position:relative;
+    width:100%;
+    left: 0%;
+    }
+    .playpause {
+    background:url(./images/play.svg),rgba(255,255,255,0.4);
+    background-repeat:no-repeat;
+    width:9%;
+    height:28%;
+    position:absolute;
+    left:0%;
+    border: 1px solid transparent;
+    
+    border-radius: 50%;
+    right:28%;
+    top:0%;
+    bottom:0%;
+    margin:auto;
+    background-size:auto;
+    background-position: center;
+    }
+    h4{
+    position: absolute;
+    font-size: 14px !important;
+    top: 3%;
+    left: 2%;
+    color: #fff;
+    font-family: Jost-Regular;
+    }
+    .positions{
+    position: absolute; 
+    top: 3%;
+    left: 2%;
+    width: 63%;
+    }
 /** MEDIA **/
 @media (max-width: 992px) {
     .login-40 .form-section {
