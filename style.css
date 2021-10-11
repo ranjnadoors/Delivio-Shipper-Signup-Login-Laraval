@@ -6901,7 +6901,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     margin-bottom: 0;
     font-size: 16px;
     font-weight: 500;
-    color: #717171;
+    color: #000;
     font-family: Jost-Regular;
 }
 
@@ -6924,8 +6924,9 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 
 .login-17 .form-section a.forgot-password {
     font-size: 16px;
-    color: #717171;
+    color: #000;
     float: right;
+    font-family: Jost;
 }
 
 .login-17 .logo img {
@@ -6961,6 +6962,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 .login-17 .regis p{
     display: list-item;
+    line-height: 23px !important;
 }
 
 .login-17 .form-section ul {
@@ -14500,7 +14502,32 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     }
 }
 
+.banner-video{
+	min-width: 450px;
+    width: 100%;
+    max-width: 450px;
+}
 
+.banner-video iframe {
+    border: 0;
+    width: 100%;
+    max-width: 100%;
+    height: 250px;
+}
+
+@media(max-width:767px){
+	.banner-video{
+		min-width:100%;
+		width:100%;
+		max-width:100% !important;
+		}
+		
+	.banner-video iframe{
+		max-width:600px !important;
+	width:100% !important}
+	
+	
+}
 
 
 
