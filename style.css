@@ -9962,7 +9962,9 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 .login-26 .form-section .terms {
     margin-left: 3px;
 }
-
+.input-field:focus, .form-box input:focus, select:focus{
+    outline: none;
+    }
 .login-26 .form-section .checkbox {
     font-size: 14px;
 }
